@@ -1,0 +1,30 @@
+=== v1.0.9 ===
+- Minor improvements.
+
+=== v1.0.8 ===
+- Minor bugs fixed.
+
+=== v1.0.7 ===
+- Minor improvements.
+
+=== v1.0.6 ===
+- Minor improvements.
+
+=== v1.0.5 ===
+- Minor improvements.
+
+=== v1.0.4 ===
+- Minor improvements.
+
+=== v1.0.3 ===
+- Minor bugs fixed & improvements
+
+=== v1.0.2 ===
+- Minor CSS improvements
+
+=== v1.0.1 ===
+- Fixed keyboard navigation issue
+
+
+=== v1.0.0 ===
+- Initial Release

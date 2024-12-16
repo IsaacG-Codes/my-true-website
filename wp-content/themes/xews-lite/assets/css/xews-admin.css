@@ -1,0 +1,13 @@
+.xews-control-hide{
+    display: none;
+}
+input.select2-search__field,
+.select2-container {
+    width: 100% !important;
+}
+
+li#customize-control-xews_lite_inner_single_sidebar img,
+li#customize-control-xews_lite_inner_blog_sidebar img {
+    width: 60px;
+    height: 60px;
+}

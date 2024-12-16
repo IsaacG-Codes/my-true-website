@@ -1,0 +1,160 @@
+/* Dark mode*/
+:root {
+    --theme-darkmode-bg-color: #152028;
+    --theme-darkmode-text-color: #e7e7e7;
+    --theme-darkmode-content-color: #a8a8a8;
+}
+
+[data-theme="dark"] {
+    --theme-bg-color: var(--theme-darkmode-bg-color);
+    --theme-text-color: var(--theme-darkmode-text-color);
+}
+
+button.xews-dark-mode-toggle {
+    background: transparent;
+    border: none;
+    color: #fff;
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    width: 120px;
+    padding-right: 0;
+}
+
+button.xews-dark-mode-toggle.cww-flex {
+    justify-content: end;
+}
+
+button.xews-dark-mode-toggle .light-dark-switch {
+    background: #fff;
+    position: relative;
+    display: block;
+    width: 64px;
+    height: 26px;
+    margin-left: 1rem;
+    border-radius: 15px;
+}
+
+[data-theme="dark"] button.xews-dark-mode-toggle .light-dark-switch:before {
+    background: #fff;
+    border-color: #1a1a1a;
+    top: 4px;
+    left: 36px;
+}
+
+button.xews-dark-mode-toggle .light-dark-switch {
+    background: #aeaeae;
+    position: relative;
+    display: block;
+    width: 64px;
+    height: 26px;
+    margin-left: 1rem;
+    border-radius: 15px;
+}
+
+button.xews-dark-mode-toggle .light-dark-switch:before {
+    background: #333;
+    transition: all 0.25s;
+    border: 4px solid #fff;
+    content: "";
+    position: absolute;
+    left: 6px;
+    top: 4px;
+    width: 19px;
+    height: 19px;
+    border-radius: 50%;
+}
+
+[data-theme="dark"] .xews-dark-mode-toggle .dark,
+[data-theme="light"] .xews-dark-mode-toggle .light {
+    display: none;
+}
+
+[data-theme="dark"] button.xews-dark-mode-toggle .light-dark-switch {
+    background: #fff;
+}
+
+[data-theme="dark"] body {
+    background-color: var(--theme-darkmode-bg-color);
+    color: var(--theme-darkmode-text-color);
+}
+
+[data-theme="dark"] .elementor-element {
+    background-color: var(--theme-darkmode-bg-color) !important;
+}
+
+[data-theme="dark"] h2.entry-title a,
+[data-theme="dark"] .main-header-xews-wrapper.main-header-elem-wrap.header-elements-wrap.cww-flex a,
+[data-theme="dark"] .main-header-xews-wrapper.main-header-elem-wrap.header-elements-wrap.cww-flex p.site-description,
+[data-theme="dark"] span.posted-on a,
+[data-theme="dark"] span.author-by,
+[data-theme="dark"] .entry-meta a,
+[data-theme="dark"] .widget ul.wp-block-latest-posts li a,
+[data-theme="dark"] .widget-area .wp-block-categories a,
+[data-theme="dark"] .widget-area .wp-block-archives a,
+[data-theme="dark"] .single_post_pagination_wrapper .post-nav-link-wrapp span a,
+[data-theme="dark"] .single_post_pagination_wrapper .post-nav-link-wrapp span i,
+[data-theme="dark"] .single_post_pagination_wrapper a,
+[data-theme="dark"] .related-posts-wrapper .related-content-wrapper h3 a,
+[data-theme="dark"] .related-posts-wrapper .related-content-wrapper,
+[data-theme="dark"] .related-posts-wrapper .post-contents p,
+[data-theme="dark"] .comment-toggle-wrapp h3.comment-toggle,
+[data-theme="dark"] .comments-area .name-email label,
+[data-theme="dark"] .comments-area .comment-form-url label,
+[data-theme="dark"] .comments-area p.comment-form-comment label,
+[data-theme="dark"] .comments-area .comment-meta a,
+[data-theme="dark"] .comments-area .comment-meta .url,
+[data-theme="dark"] .comments-area .reply a,
+[data-theme="dark"] .comments-area .comment-content a,
+[data-theme="dark"] .comments-area p.logged-in-as a,
+[data-theme="dark"] .comments-area p.logged-in-as,
+[data-theme="dark"] section.error-404.not-found h1.page-title,
+[data-theme="dark"] .widget .wp-block-latest-comments li a,
+[data-theme="dark"] .newzz-elements-wrapp .title-wrapp h3 {
+    color: var(--theme-darkmode-text-color) !important;
+}
+
+[data-theme="dark"] .comment-toggle-wrapp h3.comment-toggle,
+[data-theme="dark"] .comments-area,
+[data-theme="dark"] .related-posts-wrapper .related-content-wrapper {
+    background-color: #353c4a;
+}
+
+[data-theme="dark"] input[type="text"],
+[data-theme="dark"] input[type="email"],
+[data-theme="dark"] input[type="url"],
+[data-theme="dark"] input[type="password"],
+[data-theme="dark"] input[type="search"],
+[data-theme="dark"] input[type="number"],
+[data-theme="dark"] input[type="tel"],
+[data-theme="dark"] input[type="range"],
+[data-theme="dark"] input[type="date"],
+[data-theme="dark"] input[type="month"],
+[data-theme="dark"] input[type="week"],
+[data-theme="dark"] input[type="time"],
+[data-theme="dark"] input[type="datetime"],
+[data-theme="dark"] input[type="datetime-local"],
+[data-theme="dark"] input[type="color"],
+[data-theme="dark"] textarea,
+[data-theme="dark"] .comments-area .name-email input,
+[data-theme="dark"] .comments-area .comment-form-url input,
+[data-theme="dark"] .comments-area p.comment-form-comment input {
+    background: #dde5f0;
+}
+
+[data-theme="dark"] img {
+    filter: brightness(.8) contrast(1.2);
+}
+
+[data-theme="dark"] .elementor-widget-module1 .code-wrapp.module1 .post-content p,
+[data-theme="dark"] a.btn.read-more,
+[data-theme="dark"] .code-wrapp.module2 .post-content p {
+    color: var(--theme-darkmode-content-color) !important;
+}
+
+[data-theme="dark"] .sticky,
+[data-theme="dark"] .sticky h2.entry-title a,
+[data-theme="dark"] .sticky span.author-by,
+[data-theme="dark"] .sticky .entry-meta a {
+    color: #333 !important;
+}
